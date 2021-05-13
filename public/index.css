@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    font-family: cursive;
+}
+#header{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 10vh;
+}
+#header a{
+    font-size: 25px;
+    margin-left: 100px;
+}
+#message{
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+    background: aliceblue;
+    overflow: auto;
+}
+form{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+}
+form h1{
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+#title{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#messageBody{
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+#button{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    margin-left: 200px;
+}
+#messageContainer{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    margin-left: 700px;
+    background: #a7a7a7;
+    color: white;
+    margin-top: 50px;
+}
+
+
+table, th, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+table{
+    margin: 0 auto;
+    width: 50vw;
+    margin-top: 100px;
+}
+#tableMessages{
+    height: 70vh;
+    overflow: auto;
+}
+td{
+    height: 50px;
+}
+#addMessageButton{
+    margin-top: 30px;
+    width: 200px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 20px;
+    background: white;
+}
+
+.divMessage{
+    display: none;
+}
+
+#messageDetails{
+    position: absolute;
+    z-index: 1;
+    margin-left: 700px;
+    margin-top: 100px;
+    width: 35vw;
+    height: 40vh;
+    display: none;
+    background: antiquewhite;
+    border:2px solid black;
+    text-align: center;
+}
+
+.buttonStyle{
+    margin-top: 20px;
+    width: 130px;
+    height: 30px;
+}
